@@ -1,4 +1,4 @@
-# Encrpyted-live-chat-app-
+# Encrypted-live-chat-app-
 # Desktop Application 
 # Installation process of encrypted-live-chat-app
 # Download Python 3.9.6 https://www.python.org/ftp/python/3.9.6/python-3.9.6-amd64.exe
