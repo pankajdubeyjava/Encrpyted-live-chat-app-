@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1124</width>
+    <height>851</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(81, 81, 81);</string>
+  </property>
+  <widget class="QLineEdit" name="wrmsg">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>720</y>
+     <width>771</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 255, 127);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="sendbutton">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>730</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(43, 255, 43);
+color: rgb(255, 85, 127);
+font: 11pt &quot;MS Shell Dlg 2&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Send</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>691</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 0, 255);
+font: 15pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>  ChatAp</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="msgbox">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>921</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 205, 231);
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+alternate-background-color: rgb(170, 255, 255);
+color: rgb(0, 0, 0);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
