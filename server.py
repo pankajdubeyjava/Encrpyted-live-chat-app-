@@ -28,7 +28,7 @@ def login():
         count+=1
         if email== user:
             if data["password"][count]==password:
-                print("welcom in chatAP")
+                print("welcome in chatAP")
                 msg="Yes"
                 conn.send(msg.encode())
                 chatting(email)
